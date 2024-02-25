@@ -1,27 +1,17 @@
 package Model;
 
 public class Dice {
-    private int numberOne;
-    private int numberTwo;
+    private int number;
 
-    public Dice(int numberOne, int numberTwo) {
-        this.numberOne = numberOne; 
-        this.numberTwo = numberTwo;
+    public Dice(int number) {
+        this.number = number;
     }
 
-    public int getNumberOne() {
-        return numberOne;
+    public int getNumber() {
+        return number;
     }
 
-    public void setNumberOne(int numberOne) {
-        this.numberOne = numberOne;
-    }
-
-    public int getNumberTwo() {
-        return numberTwo;
-    }
-
-    public void setNumberTwo(int numberTwo) {
-        this.numberTwo = numberTwo;
+    public void setNumber(int number) {
+        this.number = number;
     }
 }
